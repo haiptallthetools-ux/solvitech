@@ -24,9 +24,9 @@ def launch_opera():
     time.sleep(2)
 
 async def main():
-    launch_opera()
+    # launch_opera()
 
-    ws_url = "ws://localhost:9222/devtools/browser/d18a3011-8ad7-428e-aec6-1d5bfe5068fe"
+    ws_url = "ws://localhost:9222/devtools/browser/3fe5b281-9d23-4551-b125-edd58da7c43d"
 
     async with async_playwright() as p:
         print("Connecting via WebSocket…")

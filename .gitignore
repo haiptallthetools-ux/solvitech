@@ -1,0 +1,85 @@
+# ======================
+# ALLOWLIST (only keep)
+# ======================
+!*.py
+!*.csv
+!*.jsonl
+!*.yml
+!*.yaml
+!*.sqlite
+!*.db
+
+# ======================
+# PYTHON CACHE / BUILD
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ======================
+# VENV / SITE-PACKAGES (IMPORTANT)
+# ======================
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+site-packages/
+**/site-packages/
+
+# ======================
+# LOG / TEMP
+# ======================
+*.log
+*.tmp
+*.bak
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ======================
+# DATA (ignored except allowlist)
+# ======================
+*.json
+*.parquet
+*.avro
+*.orc
+*.delta
+*.h5
+*.pickle
+*.pkl
+*.jl
+*.feed
+
+# ======================
+# SCRAPY
+# ======================
+.scrapy/
+
+# ======================
+# NOTEBOOK
+# ======================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
